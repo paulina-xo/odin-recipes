@@ -6,16 +6,44 @@
     <title>Homepage</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-        body {font-family: Roboto Mono;}
+
+        body {
+            font-family: Roboto Mono;
+            max-width: 550px;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+
+        div {
+            border: 1px dashed black;
+            padding: 10px;
+            padding-left: 30px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0px;
+        }
+
+        a {
+            color: darkslategray;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
     </style>
 </head>
 <body>
-    <h1>Recipes</h1>
-    <ul>
-        <li><a href="recipes/ramen.html">Ramen</a></li>
-        <li><a href="recipes/mochi.html">Mochi</a></li>
-        <li><a href="recipes/iced-coffee.html">Iced Coffee</a></li>
-    </ul>
-    
+    <div>
+        <h1>Recipes</h1>
+        <ul>
+            <li><a href="recipes/ramen.html">Ramen</a></li>
+            <li><a href="recipes/mochi.html">Mochi</a></li>
+            <li><a href="recipes/iced-coffee.html">Iced Coffee</a></li>
+        </ul>
+    </div>
 </body>
 </html>
