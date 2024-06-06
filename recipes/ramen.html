@@ -4,72 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ramen</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-        body {
-            font-family: Roboto Mono;
-            max-width: 600px;
-            margin: 0 auto;
-            margin-top: 50px;
-            margin-bottom: 50px;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        div {
-            border: 1px dashed black;
-            padding: 30px;
-            text-align: justify;
-
-            img {
-                width: 100%;
-            }
-
-        }
-
-        a {
-            color: darkslategray;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <div>
-    <h1>Ramen</h1>
 
+    <div class="parent">
 
-    <p><img src="../images/ramen.jpg"></p>
+        <div class="div1"><h1>Recipes</h1></div>
 
-    <h3>Description</h3>
-    <p>Ramen is a Japanese noodle dish. It consists of Chinese-style wheat noodles served in a broth; common flavors are soy sauce and miso, with typical toppings including sliced pork, nori, menma, and scallions. Ramen has its roots in Chinese noodle dishes and is a part of Japanese Chinese cuisine.</p>
+        <div class="div2">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="ramen.html" class="current" style="color: white;">Ramen</a></li>
+                <li><a href="mochi.html">Mochi</a></li>
+                <li><a href="iced-coffee.html">Iced Coffee</a></li>
+            </ul>
+        </div>
 
-    <h3>Ingredients</h3>
-    <ul>
-        <li>Ramen noodles</li>
-        <li>Garlic and ginger</li>
-        <li>Broth (chicken or veggie)</li>
-        <li>Dried shiitake mushrooms</li>
-        <li>Toppings: panko, egg, chili oil, etc...</li>
-    </ul>
+        <div class="div3">
 
-    <h3>Steps</h3>
-    <ol>
-        <li><strong>Stir-Fry Aromatics:</strong> Garlic and ginger, what a delicious duo. This is where the flavor is, friends.</li>
-        <li><strong>Make Your (Easy!) Broth:</strong> Add some chicken broth and dried shiitake mushrooms for some umami punch.</li>
-        <li><strong>Add Noodles: </strong>Cook your noodles right in the broth with some scallions (more flavor, please!).</li>
-        <li><strong>Add Veg: </strong>Thinly sliced kale, shredded carrots, whatever you’d like! Cook until just tender.</li>
-        <li><strong>Top It Off: </strong>Add some crunchy panko crumbs, a soft-boiled egg, chili oil, hot sauce, sesame oil, and/or soy sauce, whatever your heart desires.</li>
-    </ol>
-    <br>
-    <p><em>Source:<br><a href="https://pinchofyum.com/quick-homemade-ramen">https://pinchofyum.com/quick-homemade-ramen</a></em></p>
+            <h1>Ramen</h1>
 
-    <a href="../index.html">> back to homepage <</a>
-    </div>  
+            <p><img src="../images/ramen.jpg"></p>
+
+            <h3>Description</h3>
+            <p>
+                Ramen is a Japanese noodle dish. It consists of Chinese-style wheat noodles served in a broth; common flavors are soy sauce and miso, with typical toppings including sliced pork, nori, menma, and scallions. Ramen has its roots in Chinese noodle dishes and is a part of Japanese Chinese cuisine.
+            </p>
+    
+            <h3>Ingredients</h3>
+            <ul class="ingredients">
+                <li>Ramen noodles</li>
+                <li>Garlic and ginger</li>
+                <li>Broth (chicken or veggie)</li>
+                <li>Dried shiitake mushrooms</li>
+                <li>Toppings: panko, egg, chili oil, etc...</li>
+            </ul>
+    
+            <h3>Steps</h3>
+            <ol>
+                <li><strong>Stir-Fry Aromatics:</strong> Garlic and ginger, what a delicious duo. This is where the flavor is, friends.</li>
+                <li><strong>Make Your (Easy!) Broth:</strong> Add some chicken broth and dried shiitake mushrooms for some umami punch.</li>
+                <li><strong>Add Noodles: </strong>Cook your noodles right in the broth with some scallions (more flavor, please!).</li>
+                <li><strong>Add Veg: </strong>Thinly sliced kale, shredded carrots, whatever you’d like! Cook until just tender.</li>
+                <li><strong>Top It Off: </strong>Add some crunchy panko crumbs, a soft-boiled egg, chili oil, hot sauce, sesame oil, and/or soy sauce, whatever your heart desires.</li>
+            </ol>
+
+            <br>
+
+            <p><em><strong>Source:</strong><br><a href="https://pinchofyum.com/quick-homemade-ramen">pinchofyum.com/quick-homemade-ramen</a></em></p>
+        </div>
+    </div>
 </body>
 </html>
